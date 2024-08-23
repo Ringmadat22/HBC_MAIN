@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.navigation_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation_container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 30px;
+    color: rgb(217, 144, 7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
