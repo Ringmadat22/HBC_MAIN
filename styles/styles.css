@@ -78,12 +78,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: green;
+    background-color: #fff;
+    padding-top: 10px;
 }
 
 .navbar-container {
     width: 90%;
-    background-color: aliceblue;
+    background-color: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,10 +92,15 @@
 
 .navbar-content {
     width: 40%;
-    background-color: aqua;
+    background-color: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.navbar-content .logo img {
+    width: 120px;
+    height: 110px;
 }
 
 
@@ -110,7 +116,7 @@
 }
 
 .navigation_container h1 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
     margin: 0 30px;
     color: rgb(217, 144, 7);
