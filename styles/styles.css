@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,18 +7,103 @@
     font-family: "poppins", sans-serif;
 }
 
+.top-nav {
+    background-color: rgba(0, 0, 0, 0.908);
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav-container {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.top-nav-container .left-top-nav {
+    display: flex;
+}
+
+.top-nav-container .left-top-nav h3 {
+    font-size: 1rem;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.top-nav-container .right-top-nav ul {
+    display: flex;
+}
+
+.top-nav-container .right-top-nav ul li {
+    list-style: none;
+    margin: 0 0 0 10px;
+    background-color: aqua;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.top-nav-container .right-top-nav ul li a{
+    color: #fff;
+    transition: all ease 0.3s;
+    font-size: 0.9rem;
+}
+
+.top-nav-container .right-top-nav ul .facebook {
+    background-color: #4267B2;
+}
+
+.top-nav-container .right-top-nav ul .whatsapp {
+    background-color: #128C7E;
+}
+
+.top-nav-container .right-top-nav ul .instagram {
+    background-color: #E1306C;
+}
+
+.top-nav-container .right-top-nav ul .twitter {
+    background-color: #1DA1F2;
+}
+
+
+
+
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    flex-direction: column;
+    background-color: green;
 }
+
+.navbar-container {
+    width: 90%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-content {
+    width: 40%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .navigation {
     display: flex;
     justify-content: center;
-    width: 70%;
 }
 
 .navigation_container {
@@ -26,7 +113,7 @@
 }
 
 .navigation_container h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 700;
     margin: 0 30px;
     color: rgb(217, 144, 7);
