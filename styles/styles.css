@@ -217,6 +217,43 @@
     color: #fff;
 }
 
+/* Hide navbar when scrolling down */
+.hide-nav {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+
+/* Show navbar when scrolling up */
+.lower-nav {
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .lower-navbar-container-content ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .lower-navbar-container-content ul.show {
+        display: flex;
+    }
+}
+
+
 /* HERO SECTION */
 .hero {
     position: relative;
@@ -346,4 +383,32 @@
     .large-image .description {
         max-width: 100%;
     }
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom of the screen */
+    right: 20px; /* Distance from the right of the screen */
+    z-index: 100; /* Ensure it stays on top */
+    background-color: #FF7A00;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+.scroll-to-top:hover {
+    background-color: #d46300;
+}
+
+/* Show the button */
+.scroll-to-top.show {
+    display: block;
 }
