@@ -427,14 +427,23 @@
   }
   
   .slider-item {
-    min-width: 25%; /* Each item takes up 25% of the slider's width */
+    min-width: 10%; /* Each item takes up 25% of the slider's width */
     box-sizing: border-box;
     position: relative;
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #FF7A00;
+  }
+
+  .services-h1 {
+    text-align: center;
   }
   
   .slider-item img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    border-radius: 15px;
   }
   
   .caption {
@@ -474,3 +483,15 @@
     }
   }
   
+
+.services-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container {
+    width: 80%;
+}
+
