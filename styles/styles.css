@@ -438,6 +438,8 @@
 
   .services-h1 {
     text-align: center;
+    color: #FF7A00;
+    margin-top: 60px;
   }
   
   .slider-item img {
@@ -495,3 +497,69 @@
     width: 80%;
 }
 
+.about-main {
+    margin-top: 30px;
+}
+
+
+        .about-main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .about-header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #FF7A00;
+            color: #fff;
+        }
+
+        .about-header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .about-header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .about-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .about-box {
+            background-color: #fff;
+            padding: 30px;
+            flex: 1;
+            min-width: 280px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-box h2 {
+            font-size: 26px;
+            color: #FF7A00;
+            margin-bottom: 10px;
+        }
+
+        .about-box p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: #FF7A00;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
