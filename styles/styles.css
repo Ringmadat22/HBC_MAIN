@@ -440,6 +440,8 @@
     text-align: center;
     color: #FF7A00;
     margin-top: 60px;
+    font-weight: 400;
+    margin-bottom: 5px;
   }
   
   .slider-item img {
