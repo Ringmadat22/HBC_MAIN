@@ -558,14 +558,6 @@
             color: #FF7A00;
         }
 
-        .footer {
-            text-align: center;
-            padding: 30px;
-            background-color: #333;
-            color: #fff;
-            margin-top: 40px;
-        }
-
 .fun_section {
     /* background-color: #128C7E; */
     padding: 30px 0;
@@ -710,4 +702,111 @@
 .dine_content > div > .dine_img img{
     width: 100%;
     height: 300px;
+}
+
+/* NEWSLETTER STYLES */
+
+.newsletter_section {
+    margin-top: 40px;
+}
+
+.newsletter_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.newsletter_main {
+    width: 83%;
+    padding: 60px 0;
+    border-bottom: rgba(42, 42, 42, 0.321) 1px solid;
+    border-top: rgb(42, 42, 42, 0.321) 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter_main > div {
+    width: 100%;
+}
+
+.newsletter_main .left_newsletter {
+    text-align: end;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.newsletter_main .left_newsletter h1 {
+    font-weight: 600;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: #FF7A00;
+}
+
+.newsletter_main .right_newsletter {
+    text-align: end;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.input_div {
+    display: flex;
+}
+
+.newsletter_main .right_newsletter input {
+    padding: 15px 70px 15px 15px;
+    border-radius: 0%;
+    width: 400px;
+    border: 1px solid rgb(42, 42, 42, 0.321);
+}
+
+.newsletter_main .right_newsletter input:active {
+    border-radius: 0%;
+}
+
+.newsletter_main .right_newsletter button {
+    width: 140px;
+    border-radius: 0%;
+    border: 1px solid gray;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all ease 0.3s;
+}
+
+.newsletter_main .right_newsletter button:hover {
+    background-color: #FF7A00;
+    color: #fff;
+    border: 1px solid #FF7A00;
+    border-radius: 0%;
+}
+
+/* FOOTER SECTION CSS  */
+footer {
+    background-color: green;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.footer_container {
+    background-color: yellow;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_main {
+    background-color: red;
+    padding: 10px;
+    width: 85%;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
 }
