@@ -600,7 +600,7 @@
 
 .left_fun_content {
     margin-right: 20px;
-    background-color: rgba(149, 153, 153, 0.331);
+    background-color: rgba(169, 171, 171, 0.331);
     padding: 20px 0;
 }
 
@@ -616,7 +616,6 @@
 .left_fun_content_container_content .img_div {
     margin: 10px ;
     width: 100%;
-    background-color: gray;
 }
 
 .left_fun_content_container_content .img_div img {
@@ -635,4 +634,80 @@
 
 .left_fun_content_span a:hover {
     text-decoration: underline;
+}
+
+/* DINE / RESTAURANT SECTION */
+
+.dine_section {
+    margin-top: 40px;
+}
+
+.dine_h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #FF7A00;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FF7A00;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.dine_h1 a {
+    color: #000;
+    transition: all ease .03s;
+    text-decoration: none;
+    border-bottom: #FF7A00 2px solid;
+}
+
+.dine_h1 a:hover {
+    color: #FF7A00;
+    border-bottom: #FF7A00 2px solid;
+}
+
+.dine_container {
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dine_main {
+    width: 85%;
+
+}
+
+.dine_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dine_content > div {
+    width: 100%;
+    margin: 10px 10px;
+    background-color: rgba(169, 171, 171, 0.331);
+    padding-bottom:30px ;
+}
+
+.dine_content > div > .dine_description {
+    padding:15px 25px;
+}
+
+.dine_content > div > .dine_description h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.dine_content > div > .dine_description p {
+    font-weight: 200;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: rgb(42, 42, 42);
+}
+
+.dine_content > div > .dine_img img{
+    width: 100%;
+    height: 300px;
 }
