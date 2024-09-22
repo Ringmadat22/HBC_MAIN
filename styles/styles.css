@@ -223,6 +223,11 @@ body {
     color: #fff;
 }
 
+.lower-navbar-container-content ul li .active:hover {
+    background-color: #FF7A00;
+    color: #fff;
+}
+
 /* Hide navbar when scrolling down */
 .hide-nav {
     transform: translateY(-100%);
