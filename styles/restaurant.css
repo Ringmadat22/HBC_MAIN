@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    background-image: url('../images/rest_bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 74.86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    /* color: #FF7A00; */
+    text-align: center;
+    padding-top: 20px;
+}
+
+.subheading {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    color: #FFF;
+    text-align: center;
+    /* background-color: #fff; */
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.time-box {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.time {
+    font-size: 2.5em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.cta-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.subscribe button:hover {
+    background-color: #e0a800;
+}
+
+.social-media {
+    margin-bottom: 30px;
+}
+
+.social-media a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    font-size: 0.8em;
+}
+
+
+.restaurant_socials {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+}
+
+.restaurant_socials > ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.restaurant_socials > ul > li {
+    margin: 0  10px 0 0;
+    list-style: none;
+}
+
+/* .restaurant_socials > ul > li > a {
+    background-color: inherit;
+    padding: 10px;
+    width: 35px;
+    font-size: 1rem;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    border: 1px solid #FFF;
+    font-weight: 500;
+} */
+
+.restaurant_socials ul {
+    display: flex;
+}
+
+.restaurant_socials ul li {
+    list-style: none;
+    margin: 0 0 0 10px;
+    background-color: aqua;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.restaurant_socials ul li a{
+    color: #fff;
+    transition: all ease 0.3s;
+    font-size: 1.2rem;
+}
+
+
+.restaurant_socials ul .facebook {
+    background-color: #4267B2;
+}
+
+.restaurant_socials ul .whatsapp {
+    background-color: #128C7E;
+}
+
+.restaurant_socials ul .instagram {
+    background-color: #E1306C;
+}
+
+.restaurant_socials ul .twitter {
+    background-color: #1DA1F2;
+}
