@@ -96,4 +96,39 @@
         border-radius: 15px;
         background-color: #FF7A00;
       }
+
+    .right_fun_content {
+        display: none;
+    }
+
+    .services-h1 {
+        font-size: 1.2rem;
+    }
+
+    .fun_h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:375px) {
+    .left_fun_content_container_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #disapear{
+        display: none;
+    }
+}
+
+@media (max-width:320px) {
+    .slider-item {
+        min-width: 40%; /* Each item takes up 25% of the slider's width */
+        box-sizing: border-box;
+        position: relative;
+        margin: 20px;
+        border: 1px solid #000;
+        border-radius: 15px;
+        background-color: #FF7A00;
+      }
 }
