@@ -206,12 +206,17 @@ main {
 
 #mySlides_image_div {
   width: 100%;
+  height: 550px;
+  overflow: hidden;
+}
+
+#new_mySlides_image {
   height: auto;
 }
 
 #mySlides_image {
   width: 1655px; 
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
 }
 
 

@@ -6,6 +6,10 @@
     #movie_title h1 {
         font-size: 2rem;
     }
+
+    #new_mySlides_image {
+        height: 250px;
+    }
 }
 
 @media (max-width: 1000px) {
