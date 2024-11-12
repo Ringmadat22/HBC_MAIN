@@ -260,17 +260,36 @@ main {
 
 #movie_title {
   margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 #movie_title h1 {
   font-size: 3rem;
-  margin-left: 10px;
+  margin-left: 0px;
+}
+
+.slider_movie_description {
+  line-height: 40px;
+}
+
+.slider_movie_description ul {
+  display: flex;
+}
+
+.slider_movie_description ul li {
+  margin-right: 20px;
+}
+
+.slider_movie_description ul li span{
+  font-weight: 600;
+  color: #db6a01;
 }
 
 /* Buttons */
 
 .movie_div_buttons {
   display: flex;
+  margin-left: 20px;
 }
 
 #buy_now {
