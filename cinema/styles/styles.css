@@ -627,12 +627,24 @@ main {
     position: relative;
     width: 320px;
     height: 450px;
-    background-image: url('../images/deadpoolsmall.jpg'); /* Background image */
+ /* Background image */
     background-size: cover;
     background-position: center;
     overflow: hidden;
     transition: 0.5s ease;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.goodbye-julia {
+  background-image: url('../images/small-goodbye-julia2.png');
+}
+
+.the-fall-guy {
+  background-image: url('../images/fall_guy_small.jpg');
+}
+
+.fly-me-to-the-moon {
+  background-image: url('../images/flysmall.jpg');
 }
 
 /* Add transparency to the background image */
