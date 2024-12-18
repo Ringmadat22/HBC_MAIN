@@ -51,16 +51,37 @@
         font-size: 2rem;
     }
 
-    .text-container {
-        left: 60px;
-        bottom: 60px;
+    .text-container p {
+        width: 700px;
     }
   
 }
 
 @media (max-width: 834px) {
+
+    #movie_title h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
     #mySlides_image {
         width: 830px;
+        height: 450px;
+    }
+
+    #movie_title_p {
+        width: 650px;
+    }
+
+    .slider_movie_description {
+        line-height: 40px;
+        display: block;
+      }
+
+    .text-main{
+        position: absolute;
+        padding: 20px;
+        bottom: 110px;
     }
 
     #movie_title h1 {
@@ -94,7 +115,14 @@
 @media (max-width: 428px) {
     #mySlides_image {
         width: 550px;
-        height: 25vh;
+        height: 55vh;
+        margin-top: 70px;
+    }
+
+    .text-main{
+        position: absolute;
+        padding: 10px 20px 10px 20px;
+        bottom: 140px;
     }
 
     #movie_title h1 {
@@ -135,6 +163,11 @@
       #movie_title {
         margin-bottom: 10px;
       }
+
+      #movie_title_p {
+        width: 450px;
+    }
+
 
       
 }

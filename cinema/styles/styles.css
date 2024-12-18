@@ -273,6 +273,10 @@ main {
   margin-left: 0px;
 }
 
+#movie_title_p {
+  width: 800px;
+}
+
 .slider_movie_description {
   line-height: 40px;
 }
